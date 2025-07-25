@@ -27,7 +27,7 @@ public class Main {
         }
 
         while (true) {
-            System.out.print(" Annual Interest Rate");
+            System.out.print(" Annual Interest Rate: ");
             float annualInterest = scanner.nextFloat();
             if(annualInterest >= 1 && annualInterest <= 30) {
                  monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
