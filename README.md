@@ -82,7 +82,7 @@ Mortgage: $1,649.54
 
 ---
 
-**##⚠️ Limitations**
+## ⚠️ Limitations
 ```
 
 * This program assumes valid numeric input from the user.
