@@ -91,6 +91,3 @@ Mortgage: $1,649.54
 
 * Exception handling is not implemented in this version.
 
----
-
-
