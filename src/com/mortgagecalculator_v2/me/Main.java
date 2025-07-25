@@ -34,7 +34,15 @@ public class Main {
             System.out.println("Enter value between 1 and 30");
         }
 
+        while (true) {
+            System.out.print("Period ( Years): ");
+            byte years = scanner.nextByte();
+            if (years >= 1 && years <= 30) {
+                int numberOfPayments = years * MONTHS_IN_YEAR;
+                break;
+            }
 
+        }
 
     }
 
