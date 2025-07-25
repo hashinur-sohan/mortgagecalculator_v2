@@ -22,9 +22,19 @@ public class Main {
                 break;
             System.out.print("Enter a value between 1000 to 1000000 ");
 
-
-
         }
+
+        while (true) {
+            System.out.print(" Annual Interest Rate");
+            annualInterest = scanner.nextFloat();
+            if(annualInterest >= 1 && annualInterest <= 30) {
+                float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
+                break;
+            }
+            System.out.println("Enter value between 1 and 30");
+        }
+
+
 
     }
 
